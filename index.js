@@ -8,9 +8,9 @@ function nowServing(name) {
   if (name.length===0) {
     return "There is nobody waiting to be served!"
   }
- else {
+ else {name.shift()
  return `Currently serving ${name}.`
- name.shift()
+
 
     }
   }
