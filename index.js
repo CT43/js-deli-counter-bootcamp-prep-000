@@ -12,9 +12,9 @@ function nowServing(name) {
  return `Currently serving ${name.shift()}.`}
   }
 function currentLine(line){
-  for (let i = 1; i < line.length; i++) {
+  for (let i = 0; i < line.length; i++) {
     var fullLine = []
-    fullLine.push(`${i}. ${line[i]}`)
+    fullLine.push(`${i+1}. ${line[i]}`)
     return `The line is currently: ${fullLine.join(', ')}`
   }
 }
