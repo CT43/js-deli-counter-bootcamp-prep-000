@@ -18,7 +18,7 @@ function currentLine(line){
   const fullLine = []
   for (let i = 0, l = line.length; i < l; i++) {
     
-    fullLine.push(`${i+1}. ${line[i]}`)
+    fullLine.push(`${i+1}. ${line[i]}`) }
     return `The line is currently: ${fullLine.join(', ')}`
-  }
+  
 }
