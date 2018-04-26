@@ -9,7 +9,7 @@ function nowServing(name) {
     return "There is nobody waiting to be served!"
   }
  else {
- return `Currently serving ${katzDeliline.shift()}.`
+ return `Currently serving ${name.shift()}.`
 
     }
   }
