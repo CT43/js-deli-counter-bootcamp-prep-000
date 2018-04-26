@@ -13,6 +13,6 @@ function nowServing(name) {
   }
 function currentLine(line){
   for (let i = 1; i < line.length; i++) {
-    return `The line is currently: ${i}.`
+    return `The line is currently: ${i}. line$[i]`
   }
 }
