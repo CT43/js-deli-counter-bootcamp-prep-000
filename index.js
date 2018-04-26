@@ -11,3 +11,6 @@ function nowServing(name) {
  else {
  return `Currently serving ${name.shift()}.`}
   }
+function currentLine(line){
+  if (line.length)
+}
