@@ -12,5 +12,7 @@ function nowServing(name) {
  return `Currently serving ${name.shift()}.`}
   }
 function currentLine(line){
-  if (line.length)
+  for (let i = 1; i < line.length; i++) {
+    return `The line is currently: ${i}.`
+  }
 }
