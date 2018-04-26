@@ -13,6 +13,8 @@ function nowServing(name) {
   }
 function currentLine(line){
   for (let i = 1; i < line.length; i++) {
-    return `The line is currently: ${i}. ${line[i]}`
+    var fullLine = []
+    fullLine.push('${i} . ')
+    return `The line is currently: ${i}. ${fullLine[i]}`
   }
 }
