@@ -16,7 +16,7 @@ function currentLine(line){
     return "The line is currently empty."
   }
   const fullLine = []
-  for (let i = 0, l = line.length; i < l; i++) {
+  for (let i = 0; line.length > 0; i++) {
     
     fullLine.push(`${i+1}. ${line[i]}`) }
     return `The line is currently: ${fullLine.join(', ')}`
